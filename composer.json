@@ -1,0 +1,15 @@
+{
+    "name": "sustmi/ecs-infinite-loop",
+    "autoload": {
+        "psr-4": {
+            "Sustmi\\EcsInfiniteLoop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miroslav Sustek",
+            "email": "sustmidown@centrum.cz"
+        }
+    ],
+    "require": {}
+}
