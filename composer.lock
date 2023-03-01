@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc6e2a22b4f7355eed628f8e38883152",
+    "content-hash": "79c0737ed1334b3f0e3e0d7490eadc05",
     "packages": [],
     "packages-dev": [
         {
             "name": "symplify/easy-coding-standard",
-            "version": "11.2.10",
+            "version": "dev-infinite-fixing-loop-detection",
             "source": {
                 "type": "git",
-                "url": "https://github.com/easy-coding-standard/easy-coding-standard.git",
-                "reference": "5fc343df9b86e154516ddf506f7fe0b421d7d5ef"
+                "url": "https://github.com/sustmi/easy-coding-standard.git",
+                "reference": "1b8d022385eb918cc576ac3c300c9e9327401ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-coding-standard/easy-coding-standard/zipball/5fc343df9b86e154516ddf506f7fe0b421d7d5ef",
-                "reference": "5fc343df9b86e154516ddf506f7fe0b421d7d5ef",
+                "url": "https://api.github.com/repos/sustmi/easy-coding-standard/zipball/1b8d022385eb918cc576ac3c300c9e9327401ce5",
+                "reference": "1b8d022385eb918cc576ac3c300c9e9327401ce5",
                 "shasum": ""
             },
             "require": {
@@ -37,31 +37,31 @@
                     "bootstrap.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Use Coding Standard with 0-knowledge of PHP-CS-Fixer and PHP_CodeSniffer",
             "support": {
-                "issues": "https://github.com/easy-coding-standard/easy-coding-standard/issues",
-                "source": "https://github.com/easy-coding-standard/easy-coding-standard/tree/11.2.10"
+                "source": "https://github.com/sustmi/easy-coding-standard/tree/infinite-fixing-loop-detection"
             },
             "funding": [
                 {
-                    "url": "https://www.paypal.me/rectorphp",
-                    "type": "custom"
+                    "type": "github",
+                    "url": "https://github.com/tomasvotruba"
                 },
                 {
-                    "url": "https://github.com/tomasvotruba",
-                    "type": "github"
+                    "type": "custom",
+                    "url": "https://www.paypal.me/rectorphp"
                 }
             ],
-            "time": "2023-02-27T10:00:30+00:00"
+            "time": "2023-03-01T19:23:01+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "symplify/easy-coding-standard": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

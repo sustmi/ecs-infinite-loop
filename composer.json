@@ -12,9 +12,15 @@
         }
     ],
     "require-dev": {
-        "symplify/easy-coding-standard": "11.2.10"
+        "symplify/easy-coding-standard": "dev-infinite-fixing-loop-detection"
     },
     "scripts": {
         "check": "ecs check src --clear-cache"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sustmi/easy-coding-standard.git"
+        }
+    ]
 }
